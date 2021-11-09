@@ -32,7 +32,7 @@ def run_examples():
 
 
 if __name__ == '__main__':
-    # args = parse_arguments()
-    # instance = Trajectory(**args)
-    # instance.main()
-    run_examples()
+    args = parse_arguments()
+    instance = Trajectory(**args)
+    instance.main()
+    # run_examples()
